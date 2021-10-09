@@ -10,9 +10,9 @@ class Locations {
     }
     startCard() {
         return `
-  <div class="col col-lg-3 col-md-6 col-sm-12">
+  <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
     <div class="card h-100">
-      <img src="${this.img}" class="card-img-top" alt="image">
+      <img src="${this.img}" class="card-img-top d-sm-none d-xs-none d-md-block" alt="image">
       <div class="card-body">
         <h5 class="card-title" style="text-align: center">${this.name}</h5><br>
         <p class="card-text">City : ${this.city}</p>

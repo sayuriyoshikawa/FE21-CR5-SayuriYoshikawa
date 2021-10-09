@@ -5,6 +5,11 @@ header, footer {
 }
 header h1 {
     font-size: 3vw;
+    
+}
+
+header a {
+    text-decoration: none;
     color: rgb(83, 60, 16);
 }
 
@@ -37,3 +42,5 @@ footer h1 {
     margin-bottom: 3vw;
     font-size: 3vw;
 }
+
+
