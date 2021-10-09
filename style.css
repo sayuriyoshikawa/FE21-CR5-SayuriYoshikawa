@@ -1,0 +1,39 @@
+header, footer {
+    height: 5vw;
+    background-color: rgb(255, 190, 220);
+    text-align: center;
+}
+header h1 {
+    font-size: 3vw;
+    color: rgb(83, 60, 16);
+}
+
+.dropdown {
+    padding: 1vw;
+    text-align: right;
+}
+
+footer h1 {
+    padding-top: 1vw;
+    font-size: 2vw;
+    color: rgb(83, 60, 16);
+}
+
+.container {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+} 
+
+.cardStart {
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.cardStart h2 {
+    color: rgb(83, 60, 16);
+    height: 4vw;
+    background-color: rgb(255, 239, 241);
+    margin-bottom: 2vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+}
