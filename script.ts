@@ -166,7 +166,6 @@ function descending() {
         }
     });
     
-    // (document.getElementById("descendingTitle") as HTMLElement).innerHTML = "Descending";
     for (let placesArray of placesArrays) {
 
         (document.getElementById("descending") as HTMLElement).innerHTML += placesArray.display();
@@ -176,6 +175,5 @@ function descending() {
 
 }
 (document.getElementById("descendingBtn") as HTMLElement).addEventListener("click", descending);
-
 
 
