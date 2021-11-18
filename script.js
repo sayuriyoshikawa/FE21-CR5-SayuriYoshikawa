@@ -16,8 +16,7 @@ class Locations {
       <div class="card-body">
         <h5 class="card-title" style="text-align: center">${this.name}</h5><br>
         <p class="card-text">City : ${this.city}</p>
-        <p class="card-text">Zip code : ${this.zipcode}</p>
-        <p class="card-text">Address : ${this.address}</p>
+                <p class="card-text">Address : ${this.zipcode}<br>${this.address}</p>
 `;
     }
     endCard() {
@@ -41,6 +40,7 @@ let place4 = new Locations("National Library", "Vienna", 1010, "Josefsplatz", "i
 let places = [place1, place2, place3, place4];
 for (let place of places) {
     document.getElementById("place").innerHTML += place.display();
+    console.log(place.display());
 }
 //Restaurant
 class Restaurant extends Locations {
@@ -124,7 +124,6 @@ function descending() {
             return 1;
         }
     });
-    // (document.getElementById("descendingTitle") as HTMLElement).innerHTML = "Descending";
     for (let placesArray of placesArrays) {
         document.getElementById("descending").innerHTML += placesArray.display();
     }
